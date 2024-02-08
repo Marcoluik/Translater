@@ -244,7 +244,26 @@ main {
 .middle-block .signup_link {
     margin-top: 20px; /* Space above signup link */
     text-align: center; /* Center the link */
+
 }
+.middleregister .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 3px solid darkslategray;
+}
+
+.middleregister .center .button1 {
+    background-color: darkslategray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 .carousel-container {
     overflow-x: auto;
